@@ -3,10 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hola Javascript</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Materia Joyas</title>
+
 </head>
 <body>
-    <h1>Bienvenidos al simulador de Materia Joyas. Somos una joyería que recién está en sus comienzos pero tiene productos de muy buena calidad, todos fabricados en oro y plata. La idea de este simulador es poder consultar qué productos tenemos para ofrecer y poder agregarlos a un carrito, pudiendo ver también el total del mismo. Vendemos anillos, pulseras, caravanas y collares hechos con mucho amor. Bienvenido/a y gracias por apoyar este pequeño emprendimiento!</h1>
+    <h1>Bienvenido/a a Materia Joyas!</h1>
+
+    <form id="form-nombre">
+        <label for="nombre-input">Ingresá tu nombre:</label>
+        <input type="text" id="nombre-input">
+        <button type="submit">Enviar</button>
+    </form>
+
+    <p id="saludo"></p>
+
+    <div id="productos"></div>
+
+    <div>
+        <h2>Carrito</h2>
+        <div id="alerta"></div>
+        <ul id="carrito"></ul>
+        <p>Total: $ <span id="total"></span></p>
+        <button id="vaciar">Vaciar carrito</button>
+    </div>
+
 
     <script src="js/app.js"></script>
 </body>
