@@ -1,0 +1,10 @@
+[
+    {"id": 1, "nombre": "Anillo Juno", "precio": 5500, "imagen": "./img/anillo.jpg"},
+    {"id": 2, "nombre": "Anillo Venus", "precio": 1200, "imagen": "./img/anillo2.jpg"},
+    {"id": 3, "nombre": "Pulsera Atenea", "precio": 2000, "imagen": "./img/pulsera.jpg"},
+    {"id": 4, "nombre": "Pulsera Diana", "precio": 5400, "imagen": "./img/pulsera2.jpg"},
+    {"id": 5, "nombre": "Caravanas Afrodita", "precio": 1900, "imagen": "./img/caravanas.jpg"},
+    {"id": 6, "nombre": "Caravanas Artemisa", "precio": 3600, "imagen": "./img/caravanas2.jpg"},
+    {"id": 7, "nombre": "Collar Selene", "precio": 6000, "imagen": "./img/collar.jpg"},
+    {"id": 8, "nombre": "Collar Fortuna", "precio": 1100, "imagen": "./img/collar2.jpg"}
+]
